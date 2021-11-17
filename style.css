@@ -1,0 +1,71 @@
+#score
+{
+    text-align: center;
+}
+
+#game
+{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("img/anim1.gif");
+    background-size: cover;
+}
+
+#dino
+{
+    width: 120px;
+    height: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("https://fabianlpineda.files.wordpress.com/2016/11/walking_trex.gif");
+    background-size: cover;
+}
+
+#rail
+{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    top: 175px;
+    background-image: url("https://www.seekpng.com/png/detail/1011-10111655_download-cactus-png-images-background-cactus-transparent-background.png");
+    background-size: cover;
+    left: 550px;
+    animation: cactus 1.50s infinite;
+}
+
+@keyframes cactus
+{
+    0%{
+        left: 550px;
+    }
+    100%{
+        left: -50px;
+    }
+
+}
+
+.jump-animation
+{
+    animation: jump 0.5s;
+}
+
+@keyframes jump
+{
+    0%{
+        top: 255px;
+    }
+    50%{
+        top: 75px;
+    }
+
+    75%{
+        top: 75px;
+    }
+
+    100%{
+        top: 255px;
+    }
+
+}
